@@ -1,0 +1,74 @@
+.leaflet-container {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+  height: 95.5vh;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: -1;
+}
+.leaflet-routing-container {
+  height: 280px;
+  width: 250px;
+  overflow: hidden;
+  display: none;
+  background-color: #fcfcfc;
+}
+.leaflet-routing-container:last-of-type {
+  display: block;
+}
+.leaflet-routing-container:nth-child(-n + 2) {
+  display: none;
+}
+
+.leaflet-routing-container h2 {
+  display:none;
+}
+
+.leaflet-routing-container h3 {
+  /* display:none; */
+  top: 0;
+  right: 0;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.leaflet-control-attribution {
+  display: none;
+}
+.leaflet-top {
+  padding: 20px;
+}
+.leaflet-bar,
+.leaflet-control {
+  background-color: #fcfcfc;
+}
+.leaflet-control-zoom {
+  display: none;
+}
+.leaflet-control-zoom:first-of-type {
+  display: block;
+  margin-bottom: 40px;
+}
+.leaflet-routing-alt {
+  background-color: #fcfcfc;
+}
+a.leaflet-control-zoom-in,
+a.leaflet-control-zoom-out,
+a.leaflet-control-zoom-in.leaflet-disabled,
+a.leaflet-control-zoom-out.leaflet-disabled {
+  background: #fcfcfc;
+}
+.leaflet-left {
+  display: none;
+}
+
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  .leaflet-routing-container {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+@import-normalize;
+@import "map.css";
+@import "button.css";
+@import "mapList.css";
+@import "form.css";
+@import "flash.css";
+@import "navBar.css";
+@import "logo.css";
+@import "smallScreenDevices.css";
+
+*
+*::before,
+*::after {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 20px;
+}
+p {
+  margin-bottom: 0 !important;
+}
